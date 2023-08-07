@@ -150,8 +150,87 @@
         padding: 12px 0;
       }
 
-      @media  screen and (max-width: 300px) {
+      @media  screen and (max-width: 1400px) {
+        body{
+            /* background-color: red; */
+        }
+        .box{
+            flex-direction: column;
+        }
+        .secondSection .vertical{
+            height: unset;
+        }
+        .vertical-title, .vertical-desc{
+            left: 45px;
+        }
+        .secondSection .box{
+            width: 50vw;
+        }
+       nav{
+        flex-direction: column;
+       }
         
+        .firstSection{
+            flex-direction: column-reverse;
+        }
+        .leftSection{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sectionSection{
+            height: 141px;
+        }
+        .rightSection{
+            width: 721px !important;
+            display: flex;
+            justify-content: center;
+        }
+        .rightSection img{
+            width: 45vw;
+            margin-bottom: 73px;
+        }
+        .secondSection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-top {
+            top: 150px;
+        }
+       .footer{
+            display: flex;
+            /* flex-direction: column; */
+            margin-top: 800px;
+            align-items: center;
+        }
+       .footer-first{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+         .footer-second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-third{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-fourth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-rights{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
       }
 
     </style>
@@ -175,7 +254,8 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-          Hi, My name is <span class="purple">Mukesh</span>
+            <div>Hi, My name is <span class="purple">Mukesh</span></div>
+          
           <div>
             and I am a passionate
             
